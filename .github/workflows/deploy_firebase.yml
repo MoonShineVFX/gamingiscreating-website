@@ -25,11 +25,10 @@ jobs:
           cache: "yarn"
       - name: Install and build
         run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
           yarn install --frozen-lockfile
           yarn build
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
+        uses: w9jds/firebase-action@v13.4.0
         with:
           args: deploy --only hosting
         env:
