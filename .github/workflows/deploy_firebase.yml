@@ -21,20 +21,13 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           cache: "yarn"
       - name: Install and build
         run: |
           yarn install --frozen-lockfile
           yarn build
-      - name: Install (Functions)
-        working-directory: functions
-        run: |
-          yarn install --frozen-lockfile
-      - name: Copy index.html
-        run: |
-          mkdir -p functions/source
-          cp build/index.html functions/source/index.html
+
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@v13.4.0
         with:
