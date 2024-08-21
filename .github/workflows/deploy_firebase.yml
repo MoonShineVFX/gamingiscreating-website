@@ -28,7 +28,7 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@v13.4.0
+        uses: w9jds/firebase-action@v13.15.3
         with:
           args: deploy --only hosting
         env:
