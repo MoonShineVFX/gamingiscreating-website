@@ -1,13 +1,176 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Cachet";
+    src: url("https://r2.web.moonshine.tw/msweb/asusaicamera/fonts/TradeGothicLTW05-Bold.woff2")
+        format("woff2"),
+      url("https://r2.web.moonshine.tw/msweb/asusaicamera/fonts/TradeGothicLTW05-Bold.woff")
+        format("woff");
+  }
+  @font-face {
+    font-family: "ROGFonts";
+    src: url("https://r2.web.moonshine.tw/msweb/asusaicamera/fonts/ROGFonts-Regular_0.otf")
+      format("opentype");
+  }
+  @font-face {
+    font-family: "CachetPro";
+    src: url("https://r2.web.moonshine.tw/msweb/asusaicamera/fonts/TradeGothicLTPro-Bold.ttf")
+      format("opentype");
+  }
+  @font-face {
+    font-family: "CachetProObl";
+    src: url("https://r2.web.moonshine.tw/msweb/asusaicamera/fonts/TradeGothicLTPro-BoldObl.ttf")
+      format("opentype");
+  }
+  @font-face {
+    font-family: "RobotoCon";
+    src: url("https://r2.web.moonshine.tw/msweb/asusaicamera/fonts/RobotoCondensed-Regular.ttf")
+      format("opentype");
+  }
+  @font-face {
+    font-family: "RobotoConBold";
+    src: url("https://r2.web.moonshine.tw/msweb/asusaicamera/fonts/RobotoCondensed-Bold.ttf")
+      format("opentype");
+  }
+
+  html {
+    /* font-family: Montserrat, sans-serif; */
+    font-family: "Cachet-W05", "Noto Sans TC", sans-serif;
+    overscroll-behavior: none;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+}
+.mySwiper .swiper-slide {
+  /* height: auto !important; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: transparent;
+  padding-left: 20px;
+}
+.mySwiper .swiper-slide > div {
+  transform: translateX(103px);
+}
+.mySwiper .swiper-wrapper .current > div {
+  transform: translateX(5px);
+}
+.mySwiper .swiper-wrapper .current1 > div {
+  transform: translateX(33px);
+}
+.mySwiper .swiper-wrapper .current2 > div {
+  transform: translateX(103px);
+}
+.mySwiper .swiper-wrapper .current3 > div {
+  transform: translateX(173px);
+}
+.mySwiper2 .swiper-slide {
+  /* height: auto !important; */
+  width: 40%;
+}
+
+.vimeo-wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-position: center center;
+}
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 150vh;
+  min-width: 100vw;
+  min-height: 150vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.gallery {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  color: #949494;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.cards {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cards li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 4rem;
+  font-family: sans-serif;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.8rem;
+}
+
+.actions {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.drag-proxy {
+  visibility: hidden;
+  position: absolute;
+}
+
+.testborder * {
+  border: 1px solid red;
+}
+
+/* width */
+.style-1::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.style-1::-webkit-scrollbar-track {
+  background: #ffffff50;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Handle */
+.style-1::-webkit-scrollbar-thumb {
+  background: #c3c3c3;
+  border-radius: 50px;
+}
+
+.png-container {
+  filter: invert(2%) sepia(95%) saturate(8441%) hue-rotate(359deg)
+    brightness(105%) contrast(117%);
+  /* transform: translateY(-1000px); */
 }
