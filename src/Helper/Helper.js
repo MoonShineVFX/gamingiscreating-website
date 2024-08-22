@@ -85,267 +85,267 @@ export const recommended_List = [
   {
     mbti: "INTJ",
     description:
-      "INTJs tend to value creative ingenuity, straightforward rationality, and self-improvement. They are often driven by an intense desire to master any and every topic that piques their interest.<br/><br/> With a penchant for complex problem-solving, they might find their gaming haven in strategy and simulation games, drawn to the mental challenges presented in them.",
+      "Los INTJ tienden a valorar el ingenio creativo, la racionalidad simple y la superación personal. A menudo les impulsa un intenso deseo de dominar todos y cada uno de los temas que despiertan su interés.\n\n  Tienen una inclinación por resolver problemas complejos y pueden encontrar refugio en los juegos de estrategia y simulación, atraídos por los retos mentales que plantean.",
     products: [
       {
         type: "xgm",
         name: "ROG XGM",
-        link: "https://rog.asus.com/external-graphic-docks/rog-xg-mobile-2023-model/",
+        link: "https://rog.asus.com/es/external-graphic-docks/rog-xg-mobile-2023-model/",
       },
       {
         type: "host",
         name: "ROG STRIX GT35",
-        link: "https://rog.asus.com/desktops/full-tower/rog-strix-gt35-series/",
+        link: "https://rog.asus.com/es/desktops/full-tower/rog-strix-gt35-series/",
       },
       {
         type: "mtb",
         name: "ROG MAXIMUS Z790 DARK HERO",
-        link: "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z790-dark-hero/",
+        link: "https://rog.asus.com/es/motherboards/rog-maximus/rog-maximus-z790-dark-hero/",
       },
       {
         type: "nuc",
         name: "ROG NUC 14 Enthusiast ",
-        link: "https://rog.asus.com/desktops/mini-pc/rog-nuc/",
+        link: "https://rog.asus.com/es/desktops/mini-pc/rog-nuc/",
       },
     ],
   },
   {
     mbti: "INTP",
     description:
-      "INTPs thrive in the boundless realms of curiosity and abstraction. With a mind that dances through possibilities, they find solace in exploration and creativity, making Open-world RPGs their digital playgrounds.<br/><br/>These games resonate with the INTP's desire for limitless exploration and the freedom to construct intricate worlds.",
+      "Los INTP se crecen en el espacio infinito de la curiosidad y la abstracción. Con una mente que danza entre posibilidades, encuentran consuelo en la exploración y la creatividad, por lo que utilizan los RPG de mundo abierto como patios de recreo digitales.\n\nEstos juegos alimentan los deseos de los INTP de exploración sin límites y libertad para crear mundos intrincados.",
     products: [
       {
         type: "ltp",
         name: "ROG FLOW X13",
-        link: "https://rog.asus.com/laptops/rog-flow/rog-flow-x13-2023-series/",
+        link: "https://rog.asus.com/es/laptops/rog-flow/rog-flow-x13-2023-series/",
       },
       {
         type: "clr",
         name: "ROG Strix LC III 360 ARGB",
-        link: "https://rog.asus.com/cooling/cpu-liquid-coolers/rog-strix-lc/rog-strix-lc-iii-360-argb/",
+        link: "https://rog.asus.com/es/cooling/cpu-liquid-coolers/rog-strix-lc/rog-strix-lc-iii-360-argb/",
       },
     ],
   },
   {
     mbti: "ENTJ",
     description:
-      "ENTJs are natural-born leaders driven by ambition and strategic thinking. They excel at orchestrating complex maneuvers and conquering challenges with a calculated approach. That's why MOBA (multiplayer battle arena) games can be their perfect fit, where decisions shape the course of battle.<br/><br/>The actions performed in these virtual battlefields reflect their desire for order and triumph.",
+      "Los ENTJ son líderes natos movidos por la ambición y el pensamiento estratégico. Destacan a la hora de orquestar maniobras complejas y superar retos con estrategias calculadas. Por eso, sus juegos ideales son los tipo MOBA (arena de batalla multijugador), en los que las decisiones determinan el curso de la batalla. \n\n Las acciones que realizan en estos campos de batalla virtuales reflejan sus deseos de orden y triunfo.",
     products: [
       {
         type: "phn",
         name: "ROG PHONE 8",
-        link: "https://rog.asus.com/phones/rog-phone-8/",
+        link: "https://rog.asus.com/es/phones/rog-phone-8/",
       },
       {
         type: "mtb",
         name: "ROG MAXIMUS Z790 FORMULA",
-        link: "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z790-formula/",
+        link: "https://rog.asus.com/es/motherboards/rog-maximus/rog-maximus-z790-formula/",
       },
     ],
   },
   {
     mbti: "ENTP",
     description:
-      "ENTPs are fueled by curiosity and wit. With the ability to brainstorm, adapt, and innovate within the fast-paced dynamics, they find their match in Action RPGs.<br/><br/>These games provide a stage where their quick thinking and adaptability shine.",
+      "A los ENTP les mueve la curiosidad y el ingenio. Son capaces de aportar ideas, adaptarse e innovar con un dinamismo vertiginoso, por lo que son perfectos para los RPG de acción.\n\n Estos juegos ofrecen un escenario en el que pueden brillar por su rapidez mental y su capacidad de adaptación.",
     products: [
       {
         type: "ltp",
         name: "ROG ZEPHYRUS DUO",
-        link: "https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-duo-16-2023-series/",
+        link: "https://rog.asus.com/es/laptops/rog-zephyrus/rog-zephyrus-duo-16-2023-series/",
       },
       {
         type: "mic",
         name: "ROG Carnyx",
-        link: "https://rog.asus.com/streaming-kits/rog-carnyx/",
+        link: "https://rog.asus.com/es/streaming-kits/rog-carnyx/",
       },
     ],
   },
   {
     mbti: "INFJ",
     description:
-      "INFJs navigate the world with empathy and insight, finding solace in narrative-driven and emotionally rich Adventure RPGs.<br/><br/>These games resonate with their profound connection to stories and characters, allowing them to immerse in intricate, emotionally charged worlds.",
+      "Los INFJ son empáticos y perspicaces y encuentran consuelo en los RPG de aventuras con una buena base narrativa y emocional. \n\nEstos juegos nutren su profunda conexión con las historias y los personajes, pues les permiten sumergirse en intrincados mundos cargados de emociones.",
     products: [
       {
         type: "rtr",
         name: "ROG Rapture GT-BE98",
-        link: "https://rog.asus.com/networking/rog-rapture-gt-be98-model/",
+        link: "https://rog.asus.com/es/networking/rog-rapture-gt-be98-model/",
       },
       {
         type: "ctr",
         name: "ROG Raikiri Pro",
-        link: "https://rog.asus.com/controllers/rog-raikiri-pro-model/",
+        link: "https://rog.asus.com/es/controllers/rog-raikiri-pro-model/",
       },
     ],
   },
   {
     mbti: "INFP",
     description:
-      "INFPs, with a heart full of poetry and imagination, tend to gravitate towards emotionally immersive and artistic experiences.<br/><br/>Open-ended Simulation RPG become their digital sanctuaries, offering profound narratives and breathtaking visuals. These games serve as a poetic refuge, allowing the INFPs to explore the boundless landscapes of their imagination.",
+      "Los INFP, con el corazón rebosante de poesía e imaginación, tienden a gravitar hacia experiencias emocionalmente inmersivas y artísticas.\n\n Los RPG de simulación con final abierto son sus santuarios digitales, pues ofrecen historias profundas e impresionantes efectos visuales. Los INFP encuentran en estos juegos su refugio poético, ya que les permiten explorar los escenarios ilimitados de su imaginación.",
     products: [
       {
         type: "ltp",
         name: "ROG ZEPHYRUS G14",
-        link: "https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-g14-2024/",
+        link: "https://rog.asus.com/es/laptops/rog-zephyrus/rog-zephyrus-g14-2024/",
       },
       {
         type: "psu",
         name: "ROG-LOKI-1200T-SFX-L-GAMING",
-        link: "https://rog.asus.com/power-supply-units/rog-loki/rog-loki-1200t-sfx-l-gaming-model/",
+        link: "https://rog.asus.com/es/power-supply-units/rog-loki/rog-loki-1200t-sfx-l-gaming-model/",
       },
     ],
   },
   {
     mbti: "ENFJ",
     description:
-      "ENFJs are a magnetic blend of empathy and leadership. They are drawn to cooperative and team-based Hero Shooters where interpersonal dynamics flourish.<br/><br/>These games allow ENFJs to showcase their ability and coordinate with others. For ENFJs, gaming is not just a solo adventure; it's a communal experience, a platform to forge connections and lead their virtual allies to victory.",
+      "Los ENFJ son una combinación magnética de empatía y liderazgo. Les atraen los hero shooters cooperativos y en equipo, en los que florecen las dinámicas interpersonales. \n\n Estos juegos permiten a los ENFJ exhibir sus habilidades y coordinarse con los demás. Para los ENFJ, el gaming no es una aventura en solitario, sino una experiencia en comunidad, una plataforma para forjar conexiones y llevar a sus aliados virtuales a la victoria.",
     products: [
       {
         type: "wep",
         name: "ROG Cetra True Wireless SpeedNova",
-        link: "https://rog.asus.com/headsets-audio/in-ear-headphone/rog-cetra-true-wireless-speednova/",
+        link: "https://rog.asus.com/es/headsets-audio/in-ear-headphone/rog-cetra-true-wireless-speednova/",
       },
     ],
   },
   {
     mbti: "ENFP",
     description:
-      "ENFPs embrace life with boundless enthusiasm and creativity. That's why they tend to feel right at home with Sandbox Survival games, as the virtual worlds they explore become extensions of their endless curiosity and zest for life.<br/><br/>These games mirror the vast landscapes of their imagination, allowing ENFPs to revel in the freedom to embark on epic quests, encounter diverse characters, and uncover hidden treasures.",
+      "Los ENFP abrazan la vida con un entusiasmo y una creatividad sin límites. Por eso tienden a sentirse como en casa en los juegos de supervivencia sandbox, pues los mundos virtuales que exploran se convierten en extensiones de su infinita curiosidad y su insaciable sed de vida.\n\nEstos juegos reflejan los vastos paisajes imaginativos de los ENFP y les permiten deleitarse en la libertad de embarcarse en aventuras épicas, conocer personajes diversos y descubrir tesoros ocultos.",
     products: [
       {
         type: "ltp",
         name: "ROG FLOW Z13",
-        link: "https://rog.asus.com/laptops/rog-flow/rog-flow-z13-2023-series/",
+        link: "https://rog.asus.com/es/laptops/rog-flow/rog-flow-z13-2023-series/",
       },
     ],
   },
   {
     mbti: "ISTJ",
     description:
-      "ISTJs are all about precision and order, the same way they interact with games. They excel in strategy and simulation games that demand meticulous planning.<br/><br/>Driving & Business Simulators allow ISTJs to methodically build and manage every detail. They thrive in the structured challenges of resource allocation and strategic decision-making.",
+      "A los ISTJ les gusta la precisión y el orden, tanto en la vida como en el gaming. Destacan en los juegos de estrategia y simulación que exigen una planificación meticulosa.\n\nLos simuladores de conducción y negocios permiten a los ISTJ preparar y gestionar metódicamente cada detalle. Se crecen ante los retos estructurados de asignación de recursos y toma de decisiones estratégicas.",
     products: [
       {
         type: "ltp",
         name: "ROG ZEPHYRUS M16",
-        link: "https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-m16-2023-series/",
+        link: "https://rog.asus.com/es/laptops/rog-zephyrus/rog-zephyrus-m16-2023-series/",
       },
       {
         type: "ssd",
         name: "ROG STRIX ARION",
-        link: "https://rog.asus.com/storage/rog-strix-arion-model/",
+        link: "https://rog.asus.com/es/storage/rog-strix-arion-model/",
       },
     ],
   },
   {
     mbti: "ISFJ",
     description:
-      "ISFJs are often filled with warmth and steadfast loyalty. Their empathic mind fits right in with story-driven, turn-based RPGs or cooperative games.<br/><br/>These games are their digital havens, offering opportunities to cultivate virtual bonds and serve as a canvas for their caring nature to flourish.",
+      "Los ISFJ suelen ser afectuosos y demostrar una lealtad inquebrantable. Su mente empática encaja perfectamente en los RPG por turnos basados en historias y en los juegos cooperativos. \n\n Estos juegos son sus refugios digitales, pues les ofrecen una oportunidad para entablar relaciones virtuales y un lienzo en blanco para desarrollar su carácter solidario.",
     products: [
       {
         type: "chr",
         name: "ROG Destrier Ergo Gaming Chair",
-        link: "https://rog.asus.com/apparel-bags-gear/gear/rog-destrier-ergo-gaming-chair-model/",
+        link: "https://rog.asus.com/es/apparel-bags-gear/gear/rog-destrier-ergo-gaming-chair-model/",
       },
     ],
   },
   {
     mbti: "ESTJ",
     description:
-      "ESTJ commands life with unwavering authority and practicality, such great qualities are also why they might enjoy FPS (First-person Shooters).<br/><br/>The fast-paced encounters in these games present structured challenges of decision-making favored by ESTJs, putting their pragmatic minds to the test.",
+      "Los ESTJ dirigen su vida con una autoridad y un pragmatismo inquebrantables, grandes cualidades por las que pueden disfrutar de los FPS (shooters en primera persona).\n\n Los trepidantes encuentros de estos juegos plantean retos estructurados de toma de decisiones, que gustan mucho a los ESTJ al poner a prueba su mente pragmática.",
     products: [
       {
         type: "host",
         name: "ROG G22CH",
-        link: "https://rog.asus.com/desktops/small-form-factor/rog-g22ch-series/",
+        link: "https://rog.asus.com/es/desktops/small-form-factor/rog-g22ch-series/",
       },
       {
         type: "mse",
         name: "ROG Harpe Ace Aim Lab Edition",
-        link: "https://rog.asus.com/mice-mouse-pads/mice/ambidextrous/rog-harpe-ace-aim-lab-edition-model/",
+        link: "https://rog.asus.com/es/mice-mouse-pads/mice/ambidextrous/rog-harpe-ace-aim-lab-edition-model/",
       },
     ],
   },
   {
     mbti: "ESFJ",
     description:
-      "ESFJ's empathy and communal spirit make them a perfect fit with cooperative and social simulation games.<br/><br/>These games let them nurture relationships and create harmonious communities. ESFJs revel in the interactive tapestry of friendships, turning gaming into a lively social gathering.",
+      "La empatía y el espíritu comunitario de los ESFJ hacen que sean perfectos para los juegos cooperativos y de simulación social.\n\n Estos juegos les permiten entablar relaciones y crear comunidades armoniosas. Los ESFJ se deleitan en el tejido interactivo de las amistades y convierten el gaming en animadas reuniones sociales.",
     products: [
       {
         type: "host",
         name: "ROG Hyperion GR701 BTF Edition",
-        link: "https://rog.asus.com/cases/rog-hyperion-gr701-btf-edition/",
+        link: "https://rog.asus.com/es/cases/rog-hyperion-gr701-btf-edition/",
       },
     ],
   },
   {
     mbti: "ISTP",
     description:
-      "ISTP is a mixture of practicality and adventurous spirit. That's why they love action-packed and skill-based Action Roguelike games.<br/><br/>These games challenge their skills, allowing ISTPs to push their limits. They relish the adrenaline rush of intense gameplay, turning every challenge into an opportunity for skillful display.",
+      "Los ISTP albergan una mezcla de pragmatismo y espíritu aventurero. Por eso les encantan los juegos roguelike de acción basados en habilidades. \n\n Estos juegos ponen a prueba las habilidades de los ISTP y les permiten superarse. Disfrutan de la adrenalina del juego intenso y se toman cada desafío como una oportunidad para exhibir sus habilidades.",
     products: [
       {
         type: "vga",
         name: "ROG Strix GeForce RTX™ 4080 SUPER",
-        link: "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080s-o16g-gaming/",
+        link: "https://rog.asus.com/es/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080s-o16g-gaming/",
       },
       {
         type: "kb",
         name: "ROG Azoth",
-        link: "https://rog.asus.com/keyboards/keyboards/compact/rog-azoth-model/",
+        link: "https://rog.asus.com/es/keyboards/keyboards/compact/rog-azoth-model/",
       },
     ],
   },
   {
     mbti: "ISFP",
     description:
-      "ISFPs are often free-spirited with a creative approach. That's why they find their calling in games that allow creativity to shine.<br/><br/>These games become ISFPs' digital canvases, where they can explore vibrant worlds and express themselves through gameplay. Their artistic expression resonates deeply with their soulful nature.",
+      "Los ISFP suelen ser de espíritu libre y creativo. Por eso encuentran su vocación en los juegos en los que brilla la creatividad.\n\n Estos se convierten en un lienzo en blanco digital para los ISFP, en el que explorar mundos vibrantes y expresarse jugando. Las expresiones artísticas de estos juegos calan profundamente en su carácter sensible.",
     products: [
       {
         type: "ally",
         name: "ROG ALLY X",
-        link: "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-2024/",
+        link: "https://rog.asus.com/es/gaming-handhelds/rog-ally/rog-ally-x-2024/",
       },
       {
         type: "ep",
         name: "ROG Delta S Wireless",
-        link: "https://rog.asus.com/headsets-audio/headsets/wireless-headsets/rog-delta-s-wireless-model/",
+        link: "https://rog.asus.com/es/headsets-audio/headsets/wireless-headsets/rog-delta-s-wireless-model/",
       },
       {
         type: "mse",
         name: "ROG Keris II Ace",
-        link: "https://rog.asus.com/mice-mouse-pads/mice/wireless/rog-keris-ii-ace/",
+        link: "https://rog.asus.com/es/mice-mouse-pads/mice/wireless/rog-keris-ii-ace/",
       },
     ],
   },
   {
     mbti: "ESTP",
     description:
-      "ESTPs tackle life with boldness and spontaneity, making competitive games their favorite.<br/><br/>Racing games provide a thrilling adventure for ESTPs to showcase their quick reflexes. For them, it's all about dominating the virtual arena with their dynamic and fearless approach.",
+      "Los ESTP afrontan la vida con audacia y espontaneidad, por lo que no es raro que sus juegos preferidos sean los competitivos.\n\n Los juegos de carreras ofrecen a los ESTP emocionantes aventuras en las que demostrar su rapidez de reflejos. Lo que buscan es imponerse en la arena virtual con estrategias dinámicas e intrépidas.",
     products: [
       {
         type: "ltp",
         name: "ROG Strix G16",
-        link: "https://rog.asus.com/laptops/rog-strix/rog-strix-g16-2024/",
+        link: "https://rog.asus.com/es/laptops/rog-strix/rog-strix-g16-2024/",
       },
       {
         type: "bag",
         name: "ROG Ranger Gaming Backpack 16",
-        link: "https://rog.asus.com/apparel-bags-gear/bags/rog-ranger-gaming-backpack-16/",
+        link: "https://rog.asus.com/es/apparel-bags-gear/bags/rog-ranger-gaming-backpack-16/",
       },
     ],
   },
   {
     mbti: "ESFP",
     description:
-      "ESFPs light up life's stage with spontaneity and charisma. They shine brightest in vibrant and social party games.<br/><br/>Motion-based dance games let them revel in the joy of shared experiences and friendly competition. For ESFPs, gaming isn't just a pastime; it's a chance to spread laughter and create unforgettable memories.",
+      "Los ESFP iluminan la vida con espontaneidad y carisma. Destacan en los juegos de fiesta dinámicos y sociales. \n\n Los juegos de baile basados en movimiento les permiten disfrutar de la alegría de compartir experiencias y competir entre amigos. Para los ESFP, el gaming no es solo un pasatiempo: es una oportunidad para contagiar la risa y crear recuerdos inolvidables.",
     products: [
       {
         type: "ltp",
         name: "ROG Strix SCAR 18",
-        link: "https://rog.asus.com/laptops/rog-strix/rog-strix-scar-18-2024/",
+        link: "https://rog.asus.com/es/laptops/rog-strix/rog-strix-scar-18-2024/",
       },
       {
         type: "bag",
         name: "ROG SLASH",
-        link: "https://rog.asus.com/rog-slash/",
+        link: "https://rog.asus.com/es/rog-slash/",
       },
     ],
   },
@@ -1507,66 +1507,70 @@ export const TermContent = () => {
 export const TermContent2 = () => {
   return (
     <>
-      <p>Please read the following 3 notices before joining the Event:</p>
+      <p>Lee los tres avisos siguientes antes de unirte al Evento:</p>
       <br />
-      <h3 className=" font-robotoconbold font-extrabold">1.Cookie Notice</h3>
+      <h3 className=" font-robotoconbold font-extrabold">1.Aviso de cookies</h3>
       <br />
       <p>
-        ASUSTeK COMPUTER INC. and its affiliated entities companies use a
-        cookies and similar technologies to perform essential online functions,
-        such as authentication and security. You may disable these by changing
-        your cookies setting through browser, but this may affect how this
-        website functions.
+        ASUSTeK COMPUTER INC. y sus empresas afiliadas utilizan cookies y
+        tecnologías similares para desarrollar funciones esenciales en línea,
+        como la autenticación y la seguridad. Puedes desactivarlas y cambiar la
+        configuración de las cookies a través del navegador, pero esto puede
+        afectar al funcionamiento de este sitio web.
       </p>
       <br />
       <p>
-        Also, ASUS uses some analytics, targeting, adverting and video-embedded
-        cookies provided by ASUS or third parties. If you agree to use these
-        cookies in this website, please tick the 1st checkbox below. Please note
-        that you can configure cookies settings by accessing the browser you
-        install at any time. For detailed information, please visit ASUS Privacy
-        Policy-“
+        Además, ASUS utiliza algunas cookies analíticas, de segmentación,
+        publicitarias e incrustadas en vídeos proporcionadas por ASUS o
+        terceros. Si aceptas el uso de estas cookies en este sitio web, marca la
+        1.ª casilla de verificación que aparece a continuación. Ten en cuenta
+        que puedes configurar los ajustes de las cookies si accedes al navegador
+        que instales en cualquier momento. Para obtener más información, visita
+        la Política de privacidad de ASUS:"
         <a
           href="https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy"
           className=" underline"
           target="_blank"
           rel="noreferrer"
         >
-          Cookies and similar technologies
+          Cookies y tecnologías similares
         </a>{" "}
         ”.
       </p>
       <br />
       <h3 className=" font-robotoconbold font-extrabold">
-        2.Data Collection Notice
+        2.Aviso de recopilación de datos
       </h3>
       <br />
-      <p> ASUS will collect following information in this Event:</p>
-      <p> - Gamer name, MBTI type and picture to generate AI pictures.</p>
+      <p> ASUS recopilará la siguiente información en este Evento:</p>
       <p>
         {" "}
-        - Email address for contact purpose when joining an event of this
-        website.
+        - Nombre del jugador, tipo de MBTI e imagen para generar imágenes con
+        IA.
       </p>
       <p>
         {" "}
-        Also, full name, physical address and phone number for prize delivery
-        purpose if you are anevent winner.
+        - Dirección de correo electrónico para fines de contacto al participar
+        en un evento de este sitio web.
+      </p>
+      <p>
+        {" "}
+        Además, nombre completo, dirección física y número de teléfono para la
+        entrega del premio si quedas entre los ganadores del evento.
       </p>
       <br />
       <h3 className=" font-robotoconbold font-extrabold">
-        3.Terms and Conditions{" "}
+        3.Términos y condiciones{" "}
       </h3>
       <p>
-        When joining this Event, you confirm that you have read and understood
-        the{" "}
+        Al unirte a este Evento, confirmas que has leído y entendido los{" "}
         <a
-          href="https://rog.asus.com/event/MBTIgamercard.pdf"
+          href="https://rog.asus.com/es/event/MBTIgamercard.pdf"
           className=" underline"
           target="_blank"
           rel="noreferrer"
         >
-          Terms and Conditions{" "}
+          Términos y condiciones{" "}
         </a>
         .{" "}
       </p>

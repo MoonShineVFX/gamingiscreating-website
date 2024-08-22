@@ -617,10 +617,10 @@ const Final = () => {
             <Form1
               closeModal={closeFormModal}
               line1={
-                "Congratulations on getting the SUPER RARE BADGE, placing you among the lucky 0.5%!"
+                "¡Enhorabuena por conseguir la INSIGNIA SUPER RARA: estás entre un 0,5 % de afortunados! "
               }
               line2={
-                "Please provide your information for the giveaway delivery. Thank you for joining the ROG MBTI Gamer Card again!"
+                "Facilita tus datos para que podamos entregarte el premio del sorteo misterioso. Gracias por unirte de nuevo a ROG MBTI Gamer Card."
               }
               gamerid={getUsernameFromCookie()}
               formtype={"REDEEM"}
@@ -629,22 +629,22 @@ const Final = () => {
             <Form1
               closeModal={closeFormModal}
               line1={
-                'Congratulations on completing the "Create your gamer card" experience!'
+                'Enhorabuena, has completado la experiencia "Crea tu carta de jugador".'
               }
               line2={
-                "Now, fill in your information for a chance to win exciting prizes."
+                "Ahora, introduce tus datos para tener la oportunidad de ganar premios increíbles."
               }
-              line3={"📍 Event period: 6/3~7/3"}
-              line4={"🎁 Prize:"}
+              line3={"📍 Duración del evento: del 3/6 al 3/7"}
+              line4={"🎁 Premios:"}
               line5={
                 <ul>
-                  <li>Electro Punk Go Core headset x5</li>
-                  <li>Electro Punk backpacks x5</li>
-                  <li>ROG Jenga x5</li>
+                  <li>Cinco auriculares Electro Punk Go Core</li>
+                  <li>Cinco mochilas Electro Punk</li>
+                  <li>Cinco ROG Jenga</li>
                 </ul>
               }
               line6={
-                "Winning notifications will be sent to your contact email address by 7/10 at 5:00 PM. If you are not selected as a winner, you will not receive further notification."
+                "Los ganadores recibirán una notificación por correo electrónico en la dirección de contacto antes del 10/7 a las 17:00. Si no eres uno de los ganadores, no recibirás ninguna notificación."
               }
               gamerid={getUsernameFromCookie()}
               formtype={"RAFFLE"}
@@ -730,42 +730,38 @@ const Final = () => {
                 }`}
               >
                 {mb_menu.map((item, index) => {
-                  if (
-                    !(resultData.randomSelect !== "2" && item.title === "star")
-                  ) {
-                    return (
-                      <div
-                        key={"mb_menu_" + index}
-                        onClick={() => setCurrentMenu(item.title)}
-                        className=" bg-purple-400/0 relative"
-                      >
-                        <img
-                          src={
-                            r2gifurl + "/images/mb/final_" + item.title + ".svg"
-                          }
-                          alt=""
-                        />
-                        {item.title === currentMenu && (
-                          <motion.div
-                            initial={{ opacity: 0, x: "-50%", y: 10 }}
-                            animate={{ opacity: 1, x: "-50%", y: 0 }}
-                            exit={{ opacity: 0, x: "-50%", y: 10 }}
-                            transition={{
-                              type: "spring",
-                              stiffness: 200,
-                              damping: 20,
-                            }}
-                            className=" absolute w-[100%] left-1/2 bg-amber-400/0 flex items-center justify-center"
-                          >
-                            <img
-                              src={r2gifurl + "/images/mb/final_selected.svg"}
-                              alt=""
-                            />
-                          </motion.div>
-                        )}
-                      </div>
-                    );
-                  }
+                  return (
+                    <div
+                      key={"mb_menu_" + index}
+                      onClick={() => setCurrentMenu(item.title)}
+                      className=" bg-purple-400/0 relative"
+                    >
+                      <img
+                        src={
+                          r2gifurl + "/images/mb/final_" + item.title + ".svg"
+                        }
+                        alt=""
+                      />
+                      {item.title === currentMenu && (
+                        <motion.div
+                          initial={{ opacity: 0, x: "-50%", y: 10 }}
+                          animate={{ opacity: 1, x: "-50%", y: 0 }}
+                          exit={{ opacity: 0, x: "-50%", y: 10 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 200,
+                            damping: 20,
+                          }}
+                          className=" absolute w-[100%] left-1/2 bg-amber-400/0 flex items-center justify-center"
+                        >
+                          <img
+                            src={r2gifurl + "/images/mb/final_selected.svg"}
+                            alt=""
+                          />
+                        </motion.div>
+                      )}
+                    </div>
+                  );
                 })}
               </div>
               <AnimatePresence initial={true} mode="wait">
@@ -827,7 +823,7 @@ const Final = () => {
                       </div>
                       <div className="flex items-center gap-4">
                         <div className=" font-cachetpro text-[5vw] font-semibold  ">
-                          Gamer name:
+                          Nombre del jugador:
                         </div>
                         <div className=" font-robotocon font-semibold  text-[5vw] leading-relaxed ">
                           {getUsernameFromCookie()}
@@ -842,7 +838,7 @@ const Final = () => {
                       </div>
                       <div className="mt-[10%]">
                         <div className="font-cachetpro text-[5vw] leading-[1.8vw]  ">
-                          Recommended Product:
+                          Producto recomendado:
                         </div>
                       </div>
                       <div className="mt-[10%] font-light flex flex-col gap-8 pb-[25%]">
@@ -938,7 +934,7 @@ const Final = () => {
                             resultData.randomSelect === "2" && "text-[#C7B299]"
                           } font-cachetpro bg-sky-400/0 text-[5vw] underline`}
                         >
-                          Download Gamer Card
+                          Descargar carta de jugador
                         </div>
                       </a>
                       <a
@@ -970,7 +966,7 @@ const Final = () => {
                             resultData.randomSelect === "2" && "text-[#C7B299]"
                           } font-cachetpro bg-sky-400/0 text-[5vw] underline`}
                         >
-                          Download Wallpaper
+                          Descargar fondo de pantalla
                         </div>
                       </a>
                     </div>
@@ -1185,7 +1181,7 @@ const Final = () => {
                     )}
                     <div className="w-[]">
                       <div className=" font-cachetpro text-[2.8vmin] font-semibold pt-[4%] leading-3 ">
-                        Gamer name:
+                        Nombre del jugador:
                       </div>
                     </div>
 
@@ -1223,11 +1219,7 @@ const Final = () => {
                     <div
                       className={`${scrollbarStyle} max-h-[40vh] overflow-y-auto pr-3  text-[1.5vmin] mt-[6%] leading-4 xl:leading-normal  text-white/80 font-light  overflow-hidden  font-robotocon `}
                     >
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: mbtiData.description,
-                        }}
-                      />
+                      {mbtiData.description}
                     </div>
                   </div>
                 </motion.div>
@@ -1250,7 +1242,7 @@ const Final = () => {
                 >
                   <div className="w-[20%]">
                     <div className="font-cachetpro text-[2.8vmin] leading-[2.8vmin]  ">
-                      Recommended Product:
+                      Producto recomendado:
                     </div>
                   </div>
 
@@ -1355,37 +1347,35 @@ const Final = () => {
                       : "opacity-80 brightness-100 "
                   }`}
                 >
-                  {resultData.randomSelect === "2" && (
-                    <div
-                      className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative "
-                      onClick={openFormModal}
-                    >
-                      <div className=" absolute -top-1 -left-[1px] w-[12%]">
-                        <img
-                          className="w-full"
-                          src={
-                            resultData.randomSelect === "2"
-                              ? r2gifurl + "/images/final_raffle_gold_icon.svg"
-                              : r2gifurl + "/images/final_raffle_icon.svg"
-                          }
-                          alt=""
-                        />
-                      </div>
-
-                      <div
-                        className=" font-cachetpro bg-contain  w-[100%] bg-no-repeat bg-right-bottom bg-sky-400/0 text-[1.2vw]"
-                        style={{
-                          backgroundImage: `url('${
-                            r2imagesurl + "/images/final_text_ui.png"
-                          }')`,
-                        }}
-                      >
-                        {resultData.randomSelect === "2"
-                          ? "Redeem the Prize"
-                          : "Enter the Raffle"}
-                      </div>
+                  <div
+                    className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative "
+                    onClick={openFormModal}
+                  >
+                    <div className=" absolute -top-1 -left-[1px] w-[12%]">
+                      <img
+                        className="w-full"
+                        src={
+                          resultData.randomSelect === "2"
+                            ? r2gifurl + "/images/final_raffle_gold_icon.svg"
+                            : r2gifurl + "/images/final_raffle_icon.svg"
+                        }
+                        alt=""
+                      />
                     </div>
-                  )}
+
+                    <div
+                      className=" font-cachetpro bg-contain  w-[100%] bg-no-repeat bg-right-bottom bg-sky-400/0 text-[1.2vw]"
+                      style={{
+                        backgroundImage: `url('${
+                          r2imagesurl + "/images/final_text_ui.png"
+                        }')`,
+                      }}
+                    >
+                      {resultData.randomSelect === "2"
+                        ? "Canjear el premio"
+                        : "Participar en el sorteo"}
+                    </div>
+                  </div>
 
                   <div
                     className={` flex items-end justify-between w-[76%] pl-[12%] relative transition-all duration-500  ${
@@ -1424,7 +1414,7 @@ const Final = () => {
                         }
                       }}
                     >
-                      Download Gamer Card
+                      Descargar carta de jugador
                     </div>
                   </div>
                   <div
@@ -1464,7 +1454,7 @@ const Final = () => {
                         }
                       }}
                     >
-                      Download Wallpaper
+                      Descargar fondo de pantalla
                     </div>
                   </div>
                   <div
@@ -1490,7 +1480,7 @@ const Final = () => {
                         }')`,
                       }}
                     >
-                      Back to Homepage
+                      Volver a la página de inicio
                     </div>
                   </div>
                 </motion.div>

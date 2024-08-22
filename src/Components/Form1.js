@@ -333,7 +333,7 @@ const Form1 = ({
                           className="border border-red-600 w-full flex items-center justify-center py-1 cursor-pointer hover:bg-white/10"
                           onClick={closeModal}
                         >
-                          Cancel
+                          Cancelar
                         </div>
                         {isSending ? (
                           <div className="border border-red-600 w-full flex items-center justify-center py-1 cursor-pointer hover:bg-white/10">
@@ -349,7 +349,7 @@ const Form1 = ({
                                 : "border-zinc-600 text-zinc-600"
                             }   w-full flex items-center justify-center py-1 `}
                           >
-                            Cofirm
+                            Confirmar
                           </button>
                         )}
                       </div>
@@ -417,7 +417,7 @@ const Form1 = ({
                         className="border border-red-600 w-full flex items-center justify-center py-1 cursor-pointer hover:bg-white/10"
                         onClick={() => setPage("default")}
                       >
-                        OK
+                        DE ACUERDO
                       </div>
                     </div>
                   </motion.div>
@@ -441,15 +441,15 @@ const Form1 = ({
                       />
                     </div>
                     <div className="text-[3.8vw] text-white/50 leading-tight space-y-2 py-[10%] font-light text-center ">
-                      <p>We have received your response,</p>
-                      <p>and will contact you via email by Sep 27!</p>
+                      <p>Hemos recibido tu respuesta. </p>
+                      <p>¡Mucha suerte en el sorteo!</p>
                     </div>
                     <div className="w-1/2 mx-auto mt-au">
                       <div
                         className="border border-red-600 w-full flex items-center justify-center py-1 cursor-pointer hover:bg-white/10 "
                         onClick={closeModal}
                       >
-                        OK
+                        DE ACUERDO
                       </div>
                     </div>
                   </motion.div>
@@ -525,7 +525,7 @@ const Form1 = ({
                   <div className="mt-[4%] space-y-[4%]">
                     <div className=" flex gap-2 items-center">
                       <div className="text-[1vw] font-bold whitespace-nowrap">
-                        Gamer name:
+                        Nombre del jugador:
                       </div>
                       <input
                         disabled
@@ -643,7 +643,7 @@ const Form1 = ({
                       className="border border-red-600 w-full flex items-center justify-center py-[2%]  cursor-pointer hover:bg-white/10"
                       onClick={closeModal}
                     >
-                      Cancel
+                      Cancelar
                     </div>
                     {isSending ? (
                       <div className="border border-red-600 w-full flex items-center justify-center py-[2%] text-[1vw] cursor-pointer hover:bg-white/10">
@@ -659,7 +659,7 @@ const Form1 = ({
                             : "border-zinc-600 text-zinc-600"
                         }  w-full flex items-center justify-center py-[2%]    `}
                       >
-                        Cofirm
+                        Confirmar
                       </button>
                     )}
                   </div>
@@ -748,7 +748,7 @@ const Form1 = ({
                     className="border border-red-600 w-full flex items-center justify-center py-1 cursor-pointer hover:bg-white/10"
                     onClick={() => setPage("default")}
                   >
-                    OK
+                    DE ACUERDO
                   </div>
                 </div>
               </motion.div>
@@ -771,15 +771,15 @@ const Form1 = ({
                   />
                 </div>
                 <div className="text-[1vw] text-white/50 leading-tight space-y-2 py-[10%] font-light text-center">
-                  <p>We have received your response,</p>
-                  <p>and will contact you via email by Sep 27!</p>
+                  <p>Hemos recibido tu respuesta.</p>
+                  <p>¡Mucha suerte en el sorteo!</p>
                 </div>
                 <div className="w-1/2 mx-auto mt-[5%]">
                   <div
                     className="border border-red-600 w-full flex items-center justify-center py-1 cursor-pointer hover:bg-white/10"
                     onClick={closeModal}
                   >
-                    OK
+                    DE ACUERDO
                   </div>
                 </div>
               </motion.div>

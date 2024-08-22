@@ -449,7 +449,7 @@ const Home = () => {
           >
             <div className=" pl-3 mb-1 relative font-cachetpro leading-normal pt-[1%] text-[6vw] w-[80%] overflow-hidden whitespace-nowrap">
               <div className="w-[6px] h-[20px] ] border border-red-700 bg-red-950/80 absolute top-1/2 -translate-y-1/2 left-0"></div>
-              Name Your Gamer
+              NOMBRA A TU JUGADOR
             </div>
             <div className=" flex items-center flex-col   ">
               <div className="flex flex-col items-center gap-4  w-full  bg-slate-500/0  ">
@@ -479,7 +479,9 @@ const Home = () => {
                       name="username"
                       className="block  w-[100%] font-robotocon  bg-transparent focus:outline-none sm:text-sm relative z-10 placeholder-gray-500"
                       placeholder={
-                        !isAccept ? " * Please agree to our terms." : ""
+                        !isAccept
+                          ? " * Por favor acepta nuestros términos."
+                          : ""
                       }
                       autoComplete="off"
                       maxLength={20}
@@ -501,17 +503,18 @@ const Home = () => {
                   ></div>
                 </div>
                 <div className="text-red-700 text-[3vw] mt-[1%] font-robotocon">
-                  * Input is limited to 20 characters.
-                  <br />* Only English letters, numbers, and symbols are
-                  permitted.
-                  {!isUsername && <div>* Please name your gamer</div>}
-                  {!isAccept && <div>* Please agree to our terms.</div>}
+                  * Puedes usar un máximo de 20 caracteres.
+                  <br />* Solo se permiten letras, números y símbolos ingleses.
+                  {!isUsername && <div>* Por favor nombra a tu jugador</div>}
+                  {!isAccept && (
+                    <div>* Por favor acepta nuestros términos.</div>
+                  )}
                 </div>
               </div>
               <div className="flex flex-col items-center gap-9  w-full  bg-slate-500/0  ">
                 <button
                   onClick={handleClick}
-                  aria-label="start"
+                  aria-label="COMENZAR"
                   disabled={isSending || !isAccept ? true : false}
                   className={`${
                     isSending || !isAccept ? " grayscale " : "  grayscale-0"
@@ -522,7 +525,7 @@ const Home = () => {
                     }')`,
                   }}
                 >
-                  START
+                  COMENZAR
                 </button>
               </div>
               <div className="h-[3vh] w-[1px] bg-white/70  mt-[5%]"></div>
@@ -637,20 +640,6 @@ const Home = () => {
                   className="w-full origin-bottom"
                 />
               </motion.div>
-              {/* <motion.div
-              key={r2imagesurl+ '/images/home_avatar/bigtype1/'+showData.name+'.png'} 
-              initial={{ opacity: 0,x:'-60%' , scale:1,y:'5%' }} 
-              animate={{ opacity: 1,x:'-60%', scale:1,y:'5%', transition:{delay:'0.3',type: 'spring', stiffness: 200, damping: 50} }}
-              // exit={{   opacity: 0,x:'-60%', scale:1.5,y:'5%', transition:{delay:0,type: 'spring'} }} 
-              // whileHover={{x:'65%', transition:{type: 'spring', stiffness: 600, damping: 150} }}
-              className='absolute top-0 left-1/2 w-[80vh] aspect-[1000/1045] z-10 bg-slate-400/0 origin-top bg-sky-400 '
-            >
-              <img 
-                src={r2imagesurl+ '/images/home_avatar/bigtype1/'+showData.name+'.png'} 
-                alt="mbti avatar" 
-                className='w-full origin-bottom object-contain '
-              />
-            </motion.div> */}
             </AnimatePresence>
 
             <motion.div
@@ -758,7 +747,7 @@ const Home = () => {
             <div className=" pl-[3%] mb-1 relative  font-cachetpro leading-normal pt-[1%] text-lg w-[80%] overflow-hidden whitespace-nowrap">
               <div className="w-[2%] h-[60%]  border border-red-700 bg-red-950/80 absolute top-1/2 -translate-y-1/2 left-0"></div>
               <span className="text-[1.2vw] font-robotocon">
-                Name Your Gamer
+                NOMBRA A TU JUGADOR
               </span>
             </div>
             <div className=" flex items-center  ">
@@ -815,9 +804,9 @@ const Home = () => {
                 </div>
                 <button
                   onClick={handleClick}
-                  aria-label="start"
+                  aria-label="COMENZAR"
                   disabled={isSending || !isAccept ? true : false}
-                  className={`z-0 w-[24%] text-[1vw] aspect-[90/40]  ${
+                  className={`z-0 w-[24%] text-[0.7vw] aspect-[90/40]  ${
                     isSending || !isAccept ? " grayscale " : "  grayscale-0"
                   }  bg-contain bg-top bg-no-repeat flex items-center justify-center   hover:scale-95 font-robotocon font-bold `}
                   style={{
@@ -826,7 +815,7 @@ const Home = () => {
                     }')`,
                   }}
                 >
-                  START
+                  COMENZAR
                 </button>
               </div>
 

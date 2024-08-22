@@ -554,16 +554,16 @@ const Camera = () => {
                   />
                 </motion.div>
               )}
-              <motion.div className="bg-purple-600/0 w-full flex justify-center mt-[3%]">
+              <motion.div className="bg-purple-600/0 w-full flex justify-center mt-[2%]">
                 <motion.div
                   initial={{ opacity: 0 }}
-                  animate={{ opacity: 1, x: "-8%" }}
+                  animate={{ opacity: 1, x: "-0%" }}
                   exit={{ opacity: 0 }}
                   transition={{ type: "spring", stiffness: 200, damping: 20 }}
-                  className="w-[45%] mx-auto "
+                  className="w-[60%] mx-auto "
                 >
                   <img
-                    src={r2imagesurl + "/images/upload_button.png"}
+                    src={r2imagesurl + "/es/upload_button.png"}
                     alt=""
                     className=" hover:scale-95 cursor-pointer max-w-full w-full"
                     onClick={onUploadBtnClick}
@@ -598,7 +598,7 @@ const Camera = () => {
                     }')`,
                   }}
                 >
-                  Back
+                  Atrás
                 </button>
               </motion.div>
               <motion.div
@@ -616,7 +616,7 @@ const Camera = () => {
                     }')`,
                   }}
                 >
-                  Next
+                  Siguiente
                 </button>
               </motion.div>
               <div className="h-[5vh] w-[1px] bg-white/70 absolute bottom-0 left-1/2 -translate-x-1/2 "></div>
@@ -680,7 +680,7 @@ const Camera = () => {
                   <div className=" w-full h-full flex flex-col justify-between pl-4  ">
                     <div className=" opacity-80 pt-[28%] ">
                       <div className=" font-cachetpro text-[1.4vw] font-semibold pt-[4%] leading-3 ">
-                        Gamer name:
+                        Nombre del jugador:
                       </div>
                       <div className="mt-[7%] font-light text-[1.2vw] font-robotocon ">
                         {getUsernameFromCookie()}
@@ -705,12 +705,13 @@ const Camera = () => {
                           {resultData.mbti}
                         </div>
                       </div>
-                      <div className=" text-[0.85vw] pr-[25%] text-white/80 font-light font-robotocon  overflow-hidden bg-slate-500/0  relative">
-                        <span
+                      <div className=" text-[0.85vw] pr-[25%] text-white/80 font-light font-robotocon  overflow-hidden bg-slate-500/0  relative whitespace-pre-wrap">
+                        {/* <span
                           dangerouslySetInnerHTML={{
                             __html: mbtiData.description,
                           }}
-                        />
+                        /> */}
+                        {mbtiData.description}
                       </div>
                     </div>
                   </div>
@@ -856,13 +857,13 @@ const Camera = () => {
               <div className="w-[1px] h-[250px] bg-white/50 "></div>
               <motion.div
                 initial={{ opacity: 0 }}
-                animate={{ opacity: 1, x: "-8%" }}
+                animate={{ opacity: 1, x: "-6%" }}
                 exit={{ opacity: 0 }}
                 transition={{ type: "spring", stiffness: 200, damping: 20 }}
-                className="w-[80%] "
+                className="w-[100%] "
               >
                 <img
-                  src={r2imagesurl + "/images/upload_button.png"}
+                  src={r2imagesurl + "/es/upload_button.png"}
                   alt=""
                   className=" hover:scale-95 cursor-pointer w-full"
                   onClick={onUploadBtnClick}
@@ -895,7 +896,7 @@ const Camera = () => {
                 }')`,
               }}
             >
-              Back
+              Atrás
             </button>
           </motion.div>
           <motion.div
@@ -915,7 +916,7 @@ const Camera = () => {
                 }')`,
               }}
             >
-              Next
+              Siguiente
             </button>
             <div className="h-[1px] w-[6vw] bg-white/70 ml-2"></div>
           </motion.div>
