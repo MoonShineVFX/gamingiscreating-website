@@ -68,8 +68,8 @@ export const getDescriptionByMbti = (mbtiType) => {
 
 export const randomTwo = () => {
   let imgs = ["1", "2"]; // 图片数组
-  let probabilities = [0.995, 0.005];
-  // let probabilities = [0.001, 0.999];
+  // let probabilities = [0.995, 0.005];
+  let probabilities = [0.001, 0.999];
   let sum = 0;
   let r = Math.random(); // 生成一个[0, 1)之间的随机数
 

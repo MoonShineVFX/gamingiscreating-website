@@ -481,7 +481,7 @@ const Camera = () => {
                 autoplay
               />
               <Player
-                src={r2gifurl + "/es/camera-02.json"}
+                src={r2gifurl + "/animationData/mb_camera_center.json"}
                 className="  absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] h-auto"
                 loop
                 autoplay
@@ -796,11 +796,12 @@ const Camera = () => {
                   />
                 </div>
 
-                <div className="  relative  bg-yellow-500/0 ml-auto">
-                  <img
-                    src={r2gifurl + "/images/R.gif"}
-                    alt=""
+                <div className="  relative  bg-yellow-500/0 ml-auto flex ">
+                  <Player
+                    src={r2gifurl + "/es/camera-02.json"}
                     className=" mix-blend-screen max-w-full h-full"
+                    loop
+                    autoplay
                   />
                 </div>
               </div>
@@ -889,10 +890,10 @@ const Camera = () => {
             <div className="h-[1px] w-[6vw] bg-white/70 mr-2"></div>
             <button
               onClick={handlePrev}
-              className="w-[50%] text-[1vw] aspect-[90/40]  bg-contain bg-left-top bg-no-repeat flex items-center justify-center hover:scale-95 font-cachet font-bold"
+              className="w-[70%] text-[1vw]  aspect-[120/40]  bg-contain bg-left-top bg-no-repeat flex items-center justify-center hover:scale-95 font-cachet font-bold"
               style={{
                 backgroundImage: `url('${
-                  r2imagesurl + "/images/redbutton_bg2.png"
+                  r2imagesurl + "/es/redbutton_long2.png"
                 }')`,
               }}
             >
@@ -907,12 +908,12 @@ const Camera = () => {
           >
             <button
               onClick={handleNext}
-              className={` w-[50%] text-[1vw] aspect-[90/40]  bg-contain bg-left-top bg-no-repeat flex items-center justify-center hover:scale-95 font-cachet font-bold transition-all duration-700 ${
+              className={` w-[70%] text-[1vw] aspect-[120/40]   bg-contain bg-left-top bg-no-repeat flex items-center justify-center hover:scale-95 font-cachet font-bold transition-all duration-700 ${
                 image ? " opacity-100" : " opacity-20 "
               }`}
               style={{
                 backgroundImage: `url('${
-                  r2imagesurl + "/images/redbutton_bg2.png"
+                  r2imagesurl + "/es/redbutton_long2.png"
                 }')`,
               }}
             >

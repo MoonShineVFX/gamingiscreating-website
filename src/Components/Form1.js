@@ -189,14 +189,24 @@ const Form1 = ({
                     exit={{ opacity: 0 }}
                     className={`max-h-full ${scrollbarStyle}  overflow-y-auto px-4 flex flex-col h-full  `}
                   >
-                    <div className="  w-[55%] mx-auto drop-shadow-[0_15px_10px_rgba(0,0,0,1)] mb-[2%]">
-                      <img
-                        src={
-                          process.env.PUBLIC_URL + "/images/form_title_no.png"
-                        }
-                        alt=""
-                        className="w-full"
-                      />
+                    <div className="  w-full mx-auto drop-shadow-[0_15px_10px_rgba(0,0,0,1)] mb-[2%]">
+                      {formtype === "REDEEM" ? (
+                        <img
+                          src={
+                            process.env.PUBLIC_URL + "/images/form_title.png"
+                          }
+                          alt=""
+                          className="w-[70%] mx-auto"
+                        />
+                      ) : (
+                        <img
+                          src={
+                            process.env.PUBLIC_URL + "/images/form_title_no.png"
+                          }
+                          alt=""
+                          className="w-[70%] mx-auto"
+                        />
+                      )}
                     </div>
                     <div className="text-[3.5vw] text-white/50 leading-tight space-y-2 pt-[3%] font-light ">
                       {line1 && <p>{line1}</p>}
@@ -431,18 +441,43 @@ const Form1 = ({
                     className="flex flex-col items-center  justify-around h-full bg-cyan-700/0"
                   >
                     <div className="  w-[60%] mx-auto drop-shadow-[0_15px_10px_rgba(0,0,0,1)] mb-[2%]">
-                      <img
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/images/form_success_msg.png"
-                        }
-                        alt=""
-                        className="w-full"
-                      />
+                      {formtype === "REDEEM" ? (
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/form_success_msg.png"
+                          }
+                          alt=""
+                          className="w-full"
+                        />
+                      ) : (
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/form_success_msg_no.png"
+                          }
+                          alt=""
+                          className="w-full"
+                        />
+                      )}
                     </div>
                     <div className="text-[3.8vw] text-white/50 leading-tight space-y-2 py-[10%] font-light text-center ">
-                      <p>Hemos recibido tu respuesta. </p>
-                      <p>¡Mucha suerte en el sorteo!</p>
+                      {formtype === "REDEEM" ? (
+                        <>
+                          <p>Hemos recibido su respuesta y nos </p>
+                          <p>
+                            pondremos en contacto con usted por correo
+                            electrónico{" "}
+                          </p>
+                          <p>antes del 27 de septiembre.</p>
+                        </>
+                      ) : (
+                        <>
+                          {" "}
+                          <p>Hemos recibido tu respuesta. </p>
+                          <p>¡Mucha suerte en el sorteo!</p>
+                        </>
+                      )}
                     </div>
                     <div className="w-1/2 mx-auto mt-au">
                       <div
@@ -501,12 +536,20 @@ const Form1 = ({
                   formtype === "REDEEM" ? " px-8 py-6" : "px-3"
                 } `}
               >
-                <div className="  w-[46%] mx-auto drop-shadow-[0_15px_10px_rgba(0,0,0,1)] mb-[2%]">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/form_title_no.png"}
-                    alt=""
-                    className="w-full"
-                  />
+                <div className="  w-full mx-auto drop-shadow-[0_15px_10px_rgba(0,0,0,1)] mb-[2%]">
+                  {formtype === "REDEEM" ? (
+                    <img
+                      src={process.env.PUBLIC_URL + "/images/form_title.png"}
+                      alt=""
+                      className="w-[70%] mx-auto"
+                    />
+                  ) : (
+                    <img
+                      src={process.env.PUBLIC_URL + "/images/form_title_no.png"}
+                      alt=""
+                      className="w-[70%] mx-auto"
+                    />
+                  )}
                 </div>
                 <div
                   className={`text-[1vw] text-white/60 leading-tight space-y-[2%] py-[%] font-light `}
@@ -691,51 +734,7 @@ const Form1 = ({
                     experience!  Now, fill in your information for a chance to
                     win exciting prizes. Winning notifications will be sent to
                     your contact email address by 6/9 at 12:00 PM. If you are
-                    not selected as a winner, you will not receive further
-                    notification.Congratulations on completing the "Create your
-                    gamer card" experience!  Now, fill in your information for a
-                    chance to win exciting prizes. Winning notifications will be
-                    sent to your contact email address by 6/9 at 12:00 PM. If
-                    you are not selected as a winner, you will not receive
-                    further notification.Congratulations on completing the
-                    "Create your gamer card" experience!  Now, fill in your
-                    information for a chance to win exciting prizes. Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience!  Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience!  Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience!  Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience!  Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience!  Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience!  Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience!  Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience!  Winning
-                    notifications will be sent to your contact email address by
-                    6/9 at 12:00 PM. If you are not selected as a winner, you
-                    will not receive further notification.Congratulations on
-                    completing the "Create your gamer card" experience! 
+                    not
                     <br />
                     <br />
                     <br />
@@ -762,17 +761,41 @@ const Form1 = ({
                 className="flex flex-col items-center justify-center h-full"
               >
                 <div className="  w-[50%] mx-auto drop-shadow-[0_15px_10px_rgba(0,0,0,1)] mb-[2%]">
-                  <img
-                    src={
-                      process.env.PUBLIC_URL + "/images/form_success_msg.png"
-                    }
-                    alt=""
-                    className="w-full"
-                  />
+                  {formtype === "REDEEM" ? (
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + "/images/form_success_msg.png"
+                      }
+                      alt=""
+                      className="w-full"
+                    />
+                  ) : (
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/form_success_msg_no.png"
+                      }
+                      alt=""
+                      className="w-full"
+                    />
+                  )}
                 </div>
                 <div className="text-[1vw] text-white/50 leading-tight space-y-2 py-[10%] font-light text-center">
-                  <p>Hemos recibido tu respuesta.</p>
-                  <p>¡Mucha suerte en el sorteo!</p>
+                  {formtype === "REDEEM" ? (
+                    <>
+                      <p>Hemos recibido su respuesta y nos </p>
+                      <p>
+                        pondremos en contacto con usted por correo electrónico{" "}
+                      </p>
+                      <p>antes del 27 de septiembre.</p>
+                    </>
+                  ) : (
+                    <>
+                      {" "}
+                      <p>Hemos recibido tu respuesta. </p>
+                      <p>¡Mucha suerte en el sorteo!</p>
+                    </>
+                  )}
                 </div>
                 <div className="w-1/2 mx-auto mt-[5%]">
                   <div

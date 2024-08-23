@@ -1364,10 +1364,10 @@ const Character = () => {
             <div className="h-[1px] w-[6vw] bg-white/70 mr-2"></div>
             <button
               onClick={handlePrev}
-              className="w-[50%] text-[1vw]  aspect-[90/40] bg-contain bg-left-top bg-no-repeat flex items-center justify-center hover:scale-95 font-cachet font-bold"
+              className="w-[70%] text-[1vw]  aspect-[120/40]  bg-contain bg-left-top bg-no-repeat flex items-center justify-center hover:scale-95 font-cachet font-bold"
               style={{
                 backgroundImage: `url('${
-                  r2imagesurl + "/images/redbutton_bg2.png"
+                  r2imagesurl + "/es/redbutton_long2.png"
                 }')`,
               }}
             >
@@ -1382,10 +1382,10 @@ const Character = () => {
           >
             <button
               onClick={handleNext}
-              className="  w-[50%] text-[1vw] aspect-[90/40]   bg-contain bg-left-top bg-no-repeat flex items-center justify-center hover:scale-95 font-cachet font-bold"
+              className="  w-[70%] text-[1vw] aspect-[120/40]    bg-contain bg-left-top bg-no-repeat flex items-center justify-center hover:scale-95 font-cachet font-bold"
               style={{
                 backgroundImage: `url('${
-                  r2imagesurl + "/images/redbutton_bg2.png"
+                  r2imagesurl + "/es/redbutton_long2.png"
                 }')`,
               }}
             >

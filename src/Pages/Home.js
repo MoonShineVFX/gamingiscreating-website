@@ -519,10 +519,10 @@ const Home = () => {
                   disabled={isSending || !isAccept ? true : false}
                   className={`${
                     isSending || !isAccept ? " grayscale " : "  grayscale-0"
-                  } z-0 w-[24%] mt-[10%] aspect-[90/40]  bg-contain bg-top bg-no-repeat flex items-center justify-center   hover:scale-95 font-cachet font-bold`}
+                  } z-0 w-[40%] mt-[10%]  aspect-[140/40] px-2   bg-contain bg-top bg-no-repeat flex items-center justify-center   hover:scale-95 font-cachet font-bold`}
                   style={{
                     backgroundImage: `url('${
-                      r2imagesurl + "/images/redbutton_bg.png"
+                      r2imagesurl + "/es/redbutton_long.png"
                     }')`,
                   }}
                 >
@@ -761,7 +761,7 @@ const Home = () => {
             <div className=" flex items-center  ">
               <div className="flex items-center gap-1  w-full  bg-slate-500/0   ">
                 <div
-                  className={` flex w-full aspect-[340/40] justify-center items-center  bg-slate-500/0 ${
+                  className={` flex w-full aspect-[350/40] justify-center items-center  bg-slate-500/0 ${
                     isUsername ? " " : " png-container"
                   }    `}
                 >
@@ -814,12 +814,12 @@ const Home = () => {
                   onClick={handleClick}
                   aria-label="COMENZAR"
                   disabled={isSending || !isAccept ? true : false}
-                  className={`z-0 w-[24%] text-[0.7vw] aspect-[95/40]  ${
+                  className={`z-0  text-[0.9vw] aspect-[140/40] px-2  ${
                     isSending || !isAccept ? " grayscale " : "  grayscale-0"
                   }  bg-contain bg-top bg-no-repeat flex items-center justify-center   hover:scale-95 font-robotocon font-bold `}
                   style={{
                     backgroundImage: `url('${
-                      r2imagesurl + "/images/redbutton_bg.png"
+                      r2imagesurl + "/es/redbutton_long.png"
                     }')`,
                   }}
                 >
