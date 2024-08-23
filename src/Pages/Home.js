@@ -12,6 +12,7 @@ import TransitionAnimation from "../Components/TransitionAnimation";
 import trans1 from "../animationData/trans_01_short.json";
 import { analytics } from "../firebaseConfig/fireanalytics";
 import { logEvent } from "firebase/analytics";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
 const homeData = [
   { type: "type2", name: "ENTJ", id: "3" },
   { type: "type1", name: "ENTJ", id: "3" },
@@ -673,11 +674,18 @@ const Home = () => {
                 }}
                 className=" absolute top-1/2 left-0 z-50 w-[90vw]  mix-blend-screen pointer-events-none"
               >
-                <img
+                <Player
+                  src={r2gifurl + "/es/landing-00.json"}
+                  className="w-[100%] "
+                  // className="  absolute -top-[5%] left-1/2 -translate-x-1/2 w-[100%] h-auto"
+                  loop
+                  autoplay
+                />
+                {/* <img
                   src={r2gifurl + "/images/home_title.gif"}
                   alt=""
                   className="w-[100%] "
-                />
+                /> */}
               </motion.div>
             </AnimatePresence>
             <motion.img
@@ -753,7 +761,7 @@ const Home = () => {
             <div className=" flex items-center  ">
               <div className="flex items-center gap-1  w-full  bg-slate-500/0   ">
                 <div
-                  className={` flex w-full aspect-[350/40] justify-center items-center  bg-slate-500/0 ${
+                  className={` flex w-full aspect-[340/40] justify-center items-center  bg-slate-500/0 ${
                     isUsername ? " " : " png-container"
                   }    `}
                 >
@@ -806,7 +814,7 @@ const Home = () => {
                   onClick={handleClick}
                   aria-label="COMENZAR"
                   disabled={isSending || !isAccept ? true : false}
-                  className={`z-0 w-[24%] text-[0.7vw] aspect-[90/40]  ${
+                  className={`z-0 w-[24%] text-[0.7vw] aspect-[95/40]  ${
                     isSending || !isAccept ? " grayscale " : "  grayscale-0"
                   }  bg-contain bg-top bg-no-repeat flex items-center justify-center   hover:scale-95 font-robotocon font-bold `}
                   style={{
@@ -822,10 +830,10 @@ const Home = () => {
               <div className="h-[1px] w-[6vw] bg-white/70 ml-2"></div>
             </div>
             <div className="text-red-700 text-[.7vw] mt-[2%] font-robotocon">
-              * Input is limited to 20 characters.
-              <br />* Only English letters, numbers, and symbols are permitted.
-              {!isUsername && <div>* Please name your gamer</div>}
-              {!isAccept && <div>* Please agree to our terms.</div>}
+              * Puedes usar un máximo de 20 caracteres.
+              <br />* Solo se permiten letras, números y símbolos ingleses.
+              {!isUsername && <div>* Por favor nombra a tu jugador</div>}
+              {!isAccept && <div>* Por favor acepta nuestros términos.</div>}
             </div>
           </motion.div>
         </>

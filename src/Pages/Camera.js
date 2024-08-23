@@ -481,7 +481,7 @@ const Camera = () => {
                 autoplay
               />
               <Player
-                src={r2gifurl + "/animationData/mb_camera_center.json"}
+                src={r2gifurl + "/es/camera-02.json"}
                 className="  absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] h-auto"
                 loop
                 autoplay
