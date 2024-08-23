@@ -320,12 +320,9 @@ const Home = () => {
               damping: 20,
               delay: 0.5,
             }}
-            className="max-w-full w-[47%] fixed top-[5%] left-8 z-50"
+            className="max-w-full w-[60%] fixed top-[5%] left-8 z-50"
           >
-            <img
-              src={r2imagesurl + "/images/mb/home_title_mb.png"}
-              alt="title"
-            />
+            <img src={r2imagesurl + "/es/home_title_mb.png"} alt="title" />
           </motion.div>
           <div className="max-w-full h-[95dvh] aspect-[2/16] bg-yellow-300/0 fixed top-[3%] left-2  z-50">
             <img
