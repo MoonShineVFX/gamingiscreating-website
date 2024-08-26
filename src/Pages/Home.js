@@ -786,7 +786,9 @@ const Home = () => {
                       name="username"
                       className="block  w-[100%] text-[1vw] font-robotocon  bg-transparent focus:outline-none  relative z-10  placeholder-gray-500"
                       placeholder={
-                        !isAccept ? " * Please agree to our terms." : ""
+                        !isAccept
+                          ? " * Por favor acepta nuestros términos."
+                          : ""
                       }
                       autoComplete="off"
                       maxLength={20}
