@@ -632,19 +632,19 @@ const Final = () => {
                 'Enhorabuena, has completado la experiencia "Crea tu carta de jugador".'
               }
               line2={
-                "Ahora, introduce tus datos para tener la oportunidad de ganar premios increíbles."
+                "Ahora, introduce tus datos para tener la oportunidad de ganar el nuevo portátil gaming ROG Zephyrus."
               }
-              line3={"📍 Duración del evento: del 3/6 al 3/7"}
+              line3={"📍 Duración del concurso: del 27/9 al 13/10"}
               line4={"🎁 Premios:"}
               line5={
                 <ul>
-                  <li>Cinco auriculares Electro Punk Go Core</li>
-                  <li>Cinco mochilas Electro Punk</li>
-                  <li>Cinco ROG Jenga</li>
+                  <li>1 x portátil ROG Zephyrus (1r ganador)</li>
+                  <li>1 x ratón ROG Harpe Ace Aim Lab Edition Blanco</li>
+                  <li>5 x Jengas</li>
                 </ul>
               }
               line6={
-                "Los ganadores recibirán una notificación por correo electrónico en la dirección de contacto antes del 10/7 a las 17:00. Si no eres uno de los ganadores, no recibirás ninguna notificación."
+                "Los ganadores recibirán una notificación por correo electrónico en la dirección de contacto antes del 20/10. Si no eres uno de los ganadores, no recibirás ninguna notificación."
               }
               gamerid={getUsernameFromCookie()}
               formtype={"RAFFLE"}
@@ -730,6 +730,13 @@ const Final = () => {
                 }`}
               >
                 {mb_menu.map((item, index) => {
+                  // item.title star  display after 202409/27
+                  if (
+                    item.title === "star" &&
+                    new Date() < new Date("2024-09-27")
+                  ) {
+                    return null;
+                  }
                   return (
                     <div
                       key={"mb_menu_" + index}
@@ -1348,7 +1355,7 @@ const Final = () => {
                   }`}
                 >
                   <div
-                    className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative "
+                    className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative hidden"
                     onClick={openFormModal}
                   >
                     <div className=" absolute -top-1 -left-[1px] w-[12%]">
