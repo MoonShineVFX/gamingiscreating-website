@@ -573,9 +573,10 @@ const Character = () => {
                     damping: 20,
                     delay: 0.3,
                   }}
-                  className=" bg-black w-full h-[180px] py-[2%]  border-y border-white/50 absolute top-0 left-0 z-10  "
+                  className=" bg-black w-full h-[px] py-[2%]  border-y border-white/50 absolute top-0 left-0 z-10  "
+                  onClick={handleClickMbHint}
                 >
-                  <div className="text-[3.6vw] relative font-robotocon text-white/60  bg-no-repeat  w-[50%] aspect-[210/154] bg-fuchsia-400/0 mx-auto bg-contain flex justify-center     text-balance  ">
+                  <div className="text-[3.6vw] relative font-robotocon text-white/60  bg-no-repeat  w-[50%] aspect-[210/150] bg-fuchsia-400/0 mx-auto bg-contain flex justify-center     text-balance  ">
                     <div className="w-full">
                       <img
                         src={r2imagesurl + "/images/mb/character_hint_bg.png"}
@@ -594,7 +595,7 @@ const Character = () => {
                       para determinar tu tipo de personalidad MBTI antes de
                       visitar nuestro sitio web.
                     </div>
-                    <div className=" flex gap-4 absolute -bottom-2 w-11/12 left-1/2 -translate-x-1/2 justify-center mx-auto  ">
+                    {/* <div className=" flex gap-4 absolute -bottom-2 w-11/12 left-1/2 -translate-x-1/2 justify-center mx-auto  ">
                       <div onClick={handleClickMbHint}>
                         <img
                           src={
@@ -604,18 +605,7 @@ const Character = () => {
                           alt=""
                         />
                       </div>
-                      <a
-                        href="https://www.16personalities.com/es/descripcion-de-los-tipos"
-                        target="_blank"
-                      >
-                        <img
-                          src={
-                            r2imagesurl + "/images/mb/character_hint_go_btn.png"
-                          }
-                          alt=""
-                        />
-                      </a>
-                    </div>
+                    </div> */}
                   </div>
                 </motion.div>
               )}
@@ -933,14 +923,14 @@ const Character = () => {
                           damping: 20,
                           delay: 0.1,
                         }}
-                        className="absolute w-[260%]"
+                        className="absolute w-[180%]"
                       >
                         <img
                           src={r2imagesurl + "/images/hint_content_2x.png"}
                           alt=""
                           className="antialiased"
                         />
-                        <div className="py-[5%] px-[6%] text-[0.9vw] absolute top-[18%]  bg-emerald-500/0 font-robotocon text-white/50 font-thin">
+                        <div className="py-[5%] px-[6%] text-[1vw] absolute top-[18%]  bg-emerald-500/0 font-robotocon text-white/50 font-thin">
                           Visita el{" "}
                           <a
                             href="https://www.16personalities.com/es/descripcion-de-los-tipos"

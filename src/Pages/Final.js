@@ -731,12 +731,12 @@ const Final = () => {
               >
                 {mb_menu.map((item, index) => {
                   // item.title star  display after 202409/27
-                  if (
-                    item.title === "star" &&
-                    new Date() < new Date("2024-09-27")
-                  ) {
-                    return null;
-                  }
+                  // if (
+                  //   item.title === "star" &&
+                  //   new Date() < new Date("2024-09-27")
+                  // ) {
+                  //   return null;
+                  // }
                   return (
                     <div
                       key={"mb_menu_" + index}
@@ -1355,7 +1355,7 @@ const Final = () => {
                   }`}
                 >
                   <div
-                    className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative hidden"
+                    className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative "
                     onClick={openFormModal}
                   >
                     <div className=" absolute -top-1 -left-[1px] w-[12%]">
