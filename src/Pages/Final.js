@@ -1121,8 +1121,8 @@ const Final = () => {
                       className={`flex flex-col justify-center items-center gap-10 bg-orange-400/0 w-full`}
                     >
                       <div className=" font-cachetpro bg-sky-400/0 text-[5vw] text-center ">
-                        ARE YOU SURE YOU WANT TO LEAVE? <br />
-                        You will lose all your progress.
+                        ¿ESTÁS SEGURO DE QUE QUIERES SALIR? <br />
+                        Perderás todo tu progreso. Volver a la página de inicio.
                       </div>
 
                       <div
