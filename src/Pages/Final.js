@@ -731,12 +731,12 @@ const Final = () => {
               >
                 {mb_menu.map((item, index) => {
                   // item.title star  display after 202409/27
-                  // if (
-                  //   item.title === "star" &&
-                  //   new Date() < new Date("2024-09-27")
-                  // ) {
-                  //   return null;
-                  // }
+                  if (
+                    item.title === "star" &&
+                    new Date() < new Date("2024-09-27")
+                  ) {
+                    return null;
+                  }
                   return (
                     <div
                       key={"mb_menu_" + index}
@@ -1354,35 +1354,38 @@ const Final = () => {
                       : "opacity-80 brightness-100 "
                   }`}
                 >
-                  <div
-                    className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative "
-                    onClick={openFormModal}
-                  >
-                    <div className=" absolute -top-1 -left-[1px] w-[12%]">
-                      <img
-                        className="w-full"
-                        src={
-                          resultData.randomSelect === "2"
-                            ? r2gifurl + "/images/final_raffle_gold_icon.svg"
-                            : r2gifurl + "/images/final_raffle_icon.svg"
-                        }
-                        alt=""
-                      />
-                    </div>
-
+                  {/* after 2024 09 27 display this button */}
+                  {new Date() > new Date("2024-09-27") && (
                     <div
-                      className=" font-cachetpro bg-contain  w-[100%] bg-no-repeat bg-right-bottom bg-sky-400/0 text-[1.2vw]"
-                      style={{
-                        backgroundImage: `url('${
-                          r2imagesurl + "/images/final_text_ui.png"
-                        }')`,
-                      }}
+                      className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative "
+                      onClick={openFormModal}
                     >
-                      {resultData.randomSelect === "2"
-                        ? "Canjear el premio"
-                        : "Participar en el sorteo"}
+                      <div className=" absolute -top-1 -left-[1px] w-[12%]">
+                        <img
+                          className="w-full"
+                          src={
+                            resultData.randomSelect === "2"
+                              ? r2gifurl + "/images/final_raffle_gold_icon.svg"
+                              : r2gifurl + "/images/final_raffle_icon.svg"
+                          }
+                          alt=""
+                        />
+                      </div>
+
+                      <div
+                        className=" font-cachetpro bg-contain  w-[100%] bg-no-repeat bg-right-bottom bg-sky-400/0 text-[1.2vw]"
+                        style={{
+                          backgroundImage: `url('${
+                            r2imagesurl + "/images/final_text_ui.png"
+                          }')`,
+                        }}
+                      >
+                        {resultData.randomSelect === "2"
+                          ? "Canjear el premio"
+                          : "Participar en el sorteo"}
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   <div
                     className={` flex items-end justify-between w-[76%] pl-[12%] relative transition-all duration-500  ${

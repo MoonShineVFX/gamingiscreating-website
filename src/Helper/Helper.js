@@ -1529,7 +1529,7 @@ export const TermContent2 = () => {
         que instales en cualquier momento. Para obtener más información, visita
         la Política de privacidad de ASUS:"
         <a
-          href="https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy"
+          href="https://www.asus.com/es/terms_of_use_notice_privacy_policy/privacy_policy/"
           className=" underline"
           target="_blank"
           rel="noreferrer"
@@ -1566,7 +1566,7 @@ export const TermContent2 = () => {
       <p>
         Al unirte a este Evento, confirmas que has leído y entendido los{" "}
         <a
-          href="https://rog.asus.com/es/event/MBTIgamercard.pdf"
+          href="https://www.asus.com/es/terms_of_use_notice_privacy_policy/official-site/"
           className=" underline"
           target="_blank"
           rel="noreferrer"

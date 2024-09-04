@@ -160,7 +160,7 @@ const Terms = ({ closeModal }) => {
                       className=" underline"
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.asus.com/terms_of_use_notice_privacy_policy/privacy_policy/"
+                      href="https://www.asus.com/es/terms_of_use_notice_privacy_policy/privacy_policy/"
                     >
                       Política de privacidad de Asus
                     </a>
@@ -347,7 +347,7 @@ const Terms = ({ closeModal }) => {
                       className=" underline"
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.asus.com/terms_of_use_notice_privacy_policy/privacy_policy/"
+                      href="https://www.asus.com/es/terms_of_use_notice_privacy_policy/privacy_policy/"
                     >
                       Política de privacidad de Asus
                     </a>
