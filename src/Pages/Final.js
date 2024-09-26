@@ -733,7 +733,7 @@ const Final = () => {
                   // item.title star  display after 202409/27
                   if (
                     item.title === "star" &&
-                    new Date() < new Date("2024-09-27")
+                    new Date() < new Date("2024-09-25")
                   ) {
                     return null;
                   }
@@ -1355,7 +1355,7 @@ const Final = () => {
                   }`}
                 >
                   {/* after 2024 09 27 display this button */}
-                  {new Date() > new Date("2024-09-27") && (
+                  {new Date() > new Date("2024-09-25") && (
                     <div
                       className="hover:scale-95 cursor-pointer flex items-end  w-[76%] bg-fuchsia-100/0 pl-[12%] relative "
                       onClick={openFormModal}
