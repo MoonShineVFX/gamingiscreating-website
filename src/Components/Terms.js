@@ -199,7 +199,7 @@ const Terms = ({ closeModal }) => {
                     className="mt-px font-light text-white cursor-pointer select-none text-[3vw]"
                     htmlFor="check"
                   >
-                    Soy mayor de 20 años.
+                    Soy mayor de 18 años.
                   </label>
                 </div>
                 <div className="flex gap-5 w-full px-[10%] mt-[2%] text-[3vw]">
@@ -386,7 +386,7 @@ const Terms = ({ closeModal }) => {
                     className="mt-px font-light text-white cursor-pointer select-none text-[0.9vw]"
                     htmlFor="check"
                   >
-                    Soy mayor de 20 años.
+                    Soy mayor de 18 años.
                   </label>
                 </div>
 
